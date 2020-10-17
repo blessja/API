@@ -1,0 +1,62 @@
+// Place all the styles related to the Homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.flickr-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 26vh;
+    margin-top: 30px;
+  
+    h1 {
+      font-size: 2.2em;
+    }
+  
+    input {
+      box-sizing: border-box;
+      width: 300px;
+      height: 50px;
+      padding: 5px;
+      font-size: inherit;
+    }
+  
+    input[type=submit] {
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      background-color: #27030cde;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+  }
+  
+  .photo-stream {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  
+    img {
+      width: calc(100vw / 5);
+      margin: 10px;
+    }
+  }
+  
+  .warning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 50px;
+    color: #f13240;
+    background-color: #ffe3e3;
+    border: 1px solid #f13240;
+    border-radius: 3px;
+  }
+
+  
